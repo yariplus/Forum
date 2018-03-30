@@ -197,7 +197,7 @@ function Tcll5850_BBCPP2_parse(node) {
 $(document).ready(function() {
     window.Tcll5850_RTBBCP_preview = false;
 
-    $('head').append('<script src="https://floobits.com/Tcll/Forum/raw/Plugins/BBCPP2/styles.js"></script>')
+    $('head').append('<script src="https://rawgit.com/Tcll5850/Forum/master/Plugins/BBCPP2/styles.js"></script>')
     
     window.Tcll5850_BBCPP2_Settings = [false,false];
     var bbc_features = pb.plugin.get('bbc_pp2').settings.bbc_features;
