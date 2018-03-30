@@ -113,7 +113,7 @@ function Tcll5850_BBCPP1_preview(node) { Tcll5850_BBCPP1_parse(null, node) };
 $(document).ready(function() {
     window.Tcll5850_RTBBCP_preview = false;
 
-    $('head').append('<script src="https://floobits.com/Tcll/Forum/raw/Plugins/BBCPP1/syntax.js"></script>')
+    $('head').append('<script src="https://rawgit.com/Tcll5850/Forum/master/Plugins/BBCPP1/syntax.js"></script>')
     $('head').append('<script src="http://highlightjs.org/static/highlight.pack.js"></script>')
     
     window.Tcll5850_BBCPP1_Settings = [false,false,false];
