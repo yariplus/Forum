@@ -172,6 +172,11 @@ $(document).ready(function() {
                     .html('<div id="Tcll5850-PS-classes" class="" style="overflow-y:auto; resize: vertical; width: 70%; height:100px;'+
                           ' padding:5px; border-width: 1px; border-style: solid; border-color: #606060;"></div>');
             };
+            if (name === 'edit_user_personal') {
+                $('tr.custom-field-customcss').children('td.headings').next()
+                    .html('<div id="Tcll5850-PS-classes" class="" style="overflow-y:auto; resize: vertical; width: 70%; height:100px;'+
+                        ' padding:5px; border-width: 1px; border-style: solid; border-color: #606060;"></div>');
+            };
             
             var rules=pstyle.cssRules;
             for(j = 0; j< rules.length; j++){
