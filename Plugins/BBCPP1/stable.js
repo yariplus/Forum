@@ -182,8 +182,8 @@ $(document).ready(function() {
                 CCSStext.css('float', 'left');
                 CCSStext.css('margin-right', '10px');
                 CCSStext.after(
-                    '<div id="Tcll5850-PS-classes" class="" style="overflow-y:auto; width: 400px; height:92px; margin: 0px; margin-top: 5px;'+
-                    ' padding:5px; border-width: 1px; border-style: solid; border-color: #606060; border-radius: 5px;"></div>');
+                    '<div id="Tcll5850-PS-classes" class="" style="overflow-y:auto; width: 400px; height:90px; margin: 0px; margin-top: 5px;'+
+                    ' padding-left:5px; border-width: 1px; border-style: solid; border-color: #606060; border-radius: 5px;"></div>');
             };
             
             var rules=pstyle.cssRules;
