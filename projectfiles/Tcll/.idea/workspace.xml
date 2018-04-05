@@ -16,20 +16,28 @@
       <file leaf-file-name="stable.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../Plugins/BBCPP1/stable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="181" column="46" lean-forward="true" selection-start-line="181" selection-start-column="46" selection-end-line="181" selection-end-column="46" />
+            <state relative-caret-position="741">
+              <caret line="183" column="159" lean-forward="false" selection-start-line="183" selection-start-column="159" selection-end-line="183" selection-end-column="159" />
               <folding>
-                <marker date="1522961924600" expanded="true" signature="3170:3196" ph="..." />
-                <marker date="1522961924600" expanded="true" signature="3297:3597" ph="..." />
-                <marker date="1522961924600" expanded="true" signature="3746:3764" ph="..." />
-                <marker date="1522961924600" expanded="true" signature="7915:8081" ph="..." />
-                <marker date="1522961924600" expanded="true" signature="8388:8582" ph="..." />
+                <marker date="1522962001397" expanded="true" signature="3170:3196" ph="..." />
+                <marker date="1522962001397" expanded="true" signature="3297:3597" ph="..." />
+                <marker date="1522962001397" expanded="true" signature="3746:3764" ph="..." />
+                <marker date="1522962001397" expanded="true" signature="7915:8081" ph="..." />
+                <marker date="1522962001397" expanded="true" signature="8388:8600" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find />
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -311,12 +319,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522939377452</updated>
-      <workItem from="1522939384426" duration="8121000" />
+      <workItem from="1522939384426" duration="8191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8121000" />
+    <option name="totallyTimeSpent" value="8191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1599" y="25" width="1602" height="1151" extended-state="6" />
@@ -366,14 +374,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../Plugins/BBCPP1/stable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="181" column="46" lean-forward="true" selection-start-line="181" selection-start-column="46" selection-end-line="181" selection-end-column="46" />
+        <state relative-caret-position="741">
+          <caret line="183" column="159" lean-forward="false" selection-start-line="183" selection-start-column="159" selection-end-line="183" selection-end-column="159" />
           <folding>
-            <marker date="1522961924600" expanded="true" signature="3170:3196" ph="..." />
-            <marker date="1522961924600" expanded="true" signature="3297:3597" ph="..." />
-            <marker date="1522961924600" expanded="true" signature="3746:3764" ph="..." />
-            <marker date="1522961924600" expanded="true" signature="7915:8081" ph="..." />
-            <marker date="1522961924600" expanded="true" signature="8388:8582" ph="..." />
+            <marker date="1522962001397" expanded="true" signature="3170:3196" ph="..." />
+            <marker date="1522962001397" expanded="true" signature="3297:3597" ph="..." />
+            <marker date="1522962001397" expanded="true" signature="3746:3764" ph="..." />
+            <marker date="1522962001397" expanded="true" signature="7915:8081" ph="..." />
+            <marker date="1522962001397" expanded="true" signature="8388:8600" ph="..." />
           </folding>
         </state>
       </provider>
