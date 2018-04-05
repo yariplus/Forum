@@ -133,8 +133,9 @@ $(document).ready(function() {
                 useBR: true})
         };
     } catch(exc){}; //preview plugin not found
-    
-    var name = proboards.data('route').name;
+
+    var route = proboards.data('route');
+    var name = route.name;
     //messages/signatures:
     if (name.match(/(thread)|(new|quote|edit)_(thread|post|mess)/)) {
         $('.content div.message:not(.ui-resizable)').each(function() { Tcll5850_BBCPP1_parse('msg',$(this)); });
@@ -180,6 +181,6 @@ $(document).ready(function() {
                 };
             };
         };
-        
+
     };
 });
