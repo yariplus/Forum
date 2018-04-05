@@ -148,6 +148,8 @@ $(document).ready(function() {
     //profile signatures:
     if (name.match(/user/)) {
         $('.content-box.center-col:last').each(function() {Tcll5850_BBCPP1_parse('usr',$(this));});
+
+        // Custom CSS
         if (window.Tcll5850_BBCPP1_Settings[2]) {
             //$('tr.custom-field-customcss').hide();
             var ccss = $($('tr.custom-field-customcss').children('td')[1]).text();
