@@ -157,7 +157,7 @@ $(document).ready(function() {
                 var ccss = $($('tr.custom-field-customcss').children('td')[1]).text();
             };
             if (name === 'edit_user_personal') {
-                var ccss = $($('div.custom-field-customcss').children('textarea')[1]).text();
+                var ccss = $('div.custom-field-customcss').children('textarea').text();
             };
             //console.log(ccss);
             
