@@ -174,7 +174,7 @@ $(document).ready(function() {
             };
             if (name === 'edit_user_personal') {
                 var CCSStext = $('div.custom-field-customcss').children('textarea');
-                CCSStext.css('float': 'left');
+                CCSStext.css('float', 'left');
                 CCSStext.after(
                     '<div id="Tcll5850-PS-classes" class="" style="overflow-y:auto; width: 400px; height:100px;'+
                     ' padding:5px; border-width: 1px; border-style: solid; border-color: #606060; border-radius: 5px;"></div>');
