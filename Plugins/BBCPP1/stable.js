@@ -153,7 +153,12 @@ $(document).ready(function() {
         // Custom CSS
         if (window.Tcll5850_BBCPP1_Settings[2]) {
             //$('tr.custom-field-customcss').hide();
-            var ccss = $($('tr.custom-field-customcss').children('td')[1]).text();
+            if (name === 'user') {
+                var ccss = $($('tr.custom-field-customcss').children('td')[1]).text();
+            };
+            if (name === 'edit_user_personal') {
+                var ccss = $($('div.custom-field-customcss').children('textarea')[1]).text();
+            };
             //console.log(ccss);
             
             $('head').append('<style id="Tcll5850-PS-style-profile">'+ccss+'</style>');
