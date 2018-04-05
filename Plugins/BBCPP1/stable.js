@@ -173,7 +173,7 @@ $(document).ready(function() {
                           ' padding:5px; border-width: 1px; border-style: solid; border-color: #606060;"></div>');
             };
             if (name === 'edit_user_personal') {
-                $('div.custom-field-customcss').children('td.headings').next()
+                $('div.custom-field-customcss').children('textarea').next()
                     .html('<div id="Tcll5850-PS-classes" class="" style="overflow-y:auto; resize: vertical; width: 70%; height:100px;'+
                         ' padding:5px; border-width: 1px; border-style: solid; border-color: #606060;"></div>');
             };
