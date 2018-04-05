@@ -182,7 +182,7 @@ $(document).ready(function() {
                 CCSStext.css('float', 'left');
                 CCSStext.after(
                     '<div id="Tcll5850-PS-classes" class="" style="overflow-y:auto; width: 400px; height:90px; margin: 0px; margin-left: 10px'+
-                    ' padding:2px; border-width: 1px; border-style: solid; border-color: #606060; border-radius: 5px;"></div>');
+                    ' padding:5px; border-width: 1px; border-style: solid; border-color: #606060; border-radius: 5px;"></div>');
             };
             
             var rules=pstyle.cssRules;
