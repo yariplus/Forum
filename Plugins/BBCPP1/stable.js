@@ -177,12 +177,12 @@ $(document).ready(function() {
                 CCSStext.css('margin-right', '10px');
                 CCSStext.css('resize', 'vertical');
                 CCSStext.after(
-                    '<div id="Tcll5850-PS-classes" class="" style="overflow-y:auto; resize: vertical; width: 420px; margin: 0px; margin-top: 5px;'+
+                    '<div id="Tcll5850-PS-classes" class="" style="overflow-y:auto; resize: vertical; width: 450px; margin: 0px; margin-top: 5px;'+
                     ' padding: 2px; padding-left:5px; border-width: 1px; border-style: solid; border-color: #606060; border-radius: 5px;"></div>');
                 var preview = $('div#Tcll5850-PS-classes');
                 preview.height(CCSStext.height());
-                preview.resize(function() { CCSStext.height(preview.height()) });
-                CCSStext.resize(function() { preview.height(CCSStext.height()) });
+                preview[0].onresize(function() { CCSStext.height(preview.height()) });
+                CCSStext[0].onresize(function() { preview.height(CCSStext.height()) });
                 CCSStext.keyup(function() {
                     ss.text( $('div.custom-field-customcss').children('textarea').val() );
                     var pstyle = ss[0].sheet;
