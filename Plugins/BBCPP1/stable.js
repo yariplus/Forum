@@ -175,7 +175,7 @@ $(document).ready(function() {
                 var container = $('div.custom-field-customcss');
                 container.css('display','flex');
                 var CCSStext = container.children('textarea');
-                CCSStext.css('float', 'left');
+                //CCSStext.css('float', 'left');
                 CCSStext.css('margin-right', '10px');
                 CCSStext.css('resize', 'vertical');
                 CCSStext.after(
