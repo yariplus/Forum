@@ -176,7 +176,7 @@ $(document).ready(function() {
                 CCSStext.css('float', 'left');
                 CCSStext.css('margin-right', '10px');
                 CCSStext.after(
-                    '<div id="Tcll5850-PS-classes" class="" style="overflow-y:auto; width: 420px; margin: 0px; margin-top: 5px;'+
+                    '<div id="Tcll5850-PS-classes" class="" style="overflow-y:auto; width: 420px; margin: 0px; margin-top: 5px; resize: vertical'+
                     ' padding: 2px; padding-left:5px; border-width: 1px; border-style: solid; border-color: #606060; border-radius: 5px;"></div>');
                 var preview = $('div#Tcll5850-PS-classes');
                 preview.height(CCSStext.height());
