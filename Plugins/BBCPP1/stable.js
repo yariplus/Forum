@@ -173,7 +173,7 @@ $(document).ready(function() {
             };
             if (name === 'edit_user_personal') {
                 var container = $('div.custom-field-customcss');
-                container.
+                container.css('display','flex');
                 var CCSStext = container.children('textarea');
                 CCSStext.css('float', 'left');
                 CCSStext.css('margin-right', '10px');
