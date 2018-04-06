@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a1015c6-e514-4549-9652-5d6f58fb8385" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Plugins/BBCPP1/stable.js" afterPath="$PROJECT_DIR$/../../Plugins/BBCPP1/stable.js" />
-    </list>
+    <list default="true" id="3a1015c6-e514-4549-9652-5d6f58fb8385" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +14,8 @@
       <file leaf-file-name="stable.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../Plugins/BBCPP1/stable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="184" column="102" lean-forward="false" selection-start-line="184" selection-start-column="102" selection-end-line="184" selection-end-column="102" />
+            <state relative-caret-position="411">
+              <caret line="174" column="83" lean-forward="false" selection-start-line="174" selection-start-column="31" selection-end-line="174" selection-end-column="83" />
               <folding>
                 <marker date="1523016830512" expanded="true" signature="3170:3196" ph="..." />
                 <marker date="1523016830512" expanded="true" signature="3297:3597" ph="..." />
@@ -339,12 +337,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522939377452</updated>
-      <workItem from="1522939384426" duration="16817000" />
+      <workItem from="1522939384426" duration="16953000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16817000" />
+    <option name="totallyTimeSpent" value="16953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1599" y="25" width="1602" height="1151" extended-state="6" />
@@ -406,8 +404,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../Plugins/BBCPP1/stable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="184" column="102" lean-forward="false" selection-start-line="184" selection-start-column="102" selection-end-line="184" selection-end-column="102" />
+        <state relative-caret-position="411">
+          <caret line="174" column="83" lean-forward="false" selection-start-line="174" selection-start-column="31" selection-end-line="174" selection-end-column="83" />
           <folding>
             <marker date="1523016830512" expanded="true" signature="3170:3196" ph="..." />
             <marker date="1523016830512" expanded="true" signature="3297:3597" ph="..." />
