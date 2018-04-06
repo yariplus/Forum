@@ -182,7 +182,7 @@ $(document).ready(function() {
                 var preview = $('div#Tcll5850-PS-classes');
                 CCSStext.keyup(function() {
                     console.log('key pressed');
-                    pstyle.text( $('div.custom-field-customcss').children('textarea').text() );
+                    ss.text( $('div.custom-field-customcss').children('textarea').text() );
                     preview.html('');
                     for(j = 0; j< pstyle.cssRules.length; j++){
                         var sl = pstyle.cssRules[j].selectorText.split(',');
