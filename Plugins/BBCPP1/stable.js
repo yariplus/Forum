@@ -180,8 +180,8 @@ $(document).ready(function() {
                     ' padding: 2px; padding-left:5px; border-width: 1px; border-style: solid; border-color: #606060; border-radius: 5px;"></div>');
                 var preview = $('div#Tcll5850-PS-classes');
                 CCSStext.keyup(function() {
-                    pstyle.text( $('div.custom-field-customcss').children('textarea').text() )
-                    preview.html('')
+                    pstyle.text( $('div.custom-field-customcss').children('textarea').text() );
+                    preview.html('');
                     for(j = 0; j< pstyle.cssRules.length; j++){
                         var sl = pstyle.cssRules[j].selectorText.split(',');
                         for(k = 0; k< sl.length; k++){
