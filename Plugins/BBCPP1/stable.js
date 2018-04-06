@@ -163,8 +163,7 @@ $(document).ready(function() {
             
             $('head').append('<style id="Tcll5850-PS-style-profile">'+ccss+'</style>');
             
-            var pstyle = $('style#Tcll5850-PS-style-profile')
-            var rules=pstyle.cssRules;
+            var pstyle = $('style#Tcll5850-PS-style-profile');
             
             //console.log(pstyle);
             if (name === 'user') {
@@ -186,8 +185,8 @@ $(document).ready(function() {
                 });
             };
 
-            for(j = 0; j< rules.length; j++){
-                var sl = rules[j].selectorText.split(',');
+            for(j = 0; j< pstyle.cssRules.length; j++){
+                var sl = pstyle.cssRules[j].selectorText.split(',');
                 for(k = 0; k< sl.length; k++){
                     var s = sl[k].replace('.','');
                     $('div#Tcll5850-PS-classes').append('<span class="'+s+'">'+s+'</span><br/>');
