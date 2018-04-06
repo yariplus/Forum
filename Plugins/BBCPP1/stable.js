@@ -172,7 +172,9 @@ $(document).ready(function() {
                           ' padding:5px; border-width: 1px; border-style: solid; border-color: #606060;"></div>');
             };
             if (name === 'edit_user_personal') {
-                var CCSStext = $('div.custom-field-customcss').children('textarea');
+                var container = $('div.custom-field-customcss');
+                container.
+                var CCSStext = container.children('textarea');
                 CCSStext.css('float', 'left');
                 CCSStext.css('margin-right', '10px');
                 CCSStext.css('resize', 'vertical');
