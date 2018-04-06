@@ -164,7 +164,6 @@ $(document).ready(function() {
             $('head').append('<style id="Tcll5850-PS-style-profile">'+ccss+'</style>');
             
             var ss = $('style#Tcll5850-PS-style-profile');
-            var pstyle = ss[0].sheet;
             
             //console.log(pstyle);
             if (name === 'user') {
@@ -182,6 +181,7 @@ $(document).ready(function() {
                 var preview = $('div#Tcll5850-PS-classes');
                 CCSStext.keyup(function() {
                     ss.text( $('div.custom-field-customcss').children('textarea').text() );
+                    var pstyle = ss[0].sheet;
                     preview.html('');
                     for(j = 0; j< pstyle.cssRules.length; j++){
                         var sl = pstyle.cssRules[j].selectorText.split(',');
@@ -193,6 +193,7 @@ $(document).ready(function() {
                 });
             };
 
+            var pstyle = ss[0].sheet;
             for(j = 0; j< pstyle.cssRules.length; j++){
                 var sl = pstyle.cssRules[j].selectorText.split(',');
                 for(k = 0; k< sl.length; k++){
