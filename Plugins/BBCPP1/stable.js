@@ -164,6 +164,7 @@ $(document).ready(function() {
             $('head').append('<style id="Tcll5850-PS-style-profile">'+ccss+'</style>');
             
             var pstyle = $('style#Tcll5850-PS-style-profile')
+            var rules=pstyle.cssRules;
             
             //console.log(pstyle);
             if (name === 'user') {
@@ -183,7 +184,6 @@ $(document).ready(function() {
                 });
             };
             
-            var rules=pstyle.cssRules;
             for(j = 0; j< rules.length; j++){
                 var sl = rules[j].selectorText.split(',');
                 for(k = 0; k< sl.length; k++){
