@@ -185,7 +185,7 @@ $(document).ready(function() {
                     '<div id="Tcll5850-PS-classes" class="" style="overflow-y:auto; width: 400px; height:91px; margin: 0px; margin-top: 5px;'+
                     ' padding: 2px; padding-left:5px; border-width: 1px; border-style: solid; border-color: #606060; border-radius: 5px;"></div>');
                 CCSStext.keyup(function() {
-                    var ccss = $('div.custom-field-customcss').children('textarea').text();
+                    $('style#Tcll5850-PS-style-profile').text($('div.custom-field-customcss').children('textarea').text())
                 });
             };
             
