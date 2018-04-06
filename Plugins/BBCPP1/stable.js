@@ -163,7 +163,7 @@ $(document).ready(function() {
             
             $('head').append('<style id="Tcll5850-PS-style-profile">'+ccss+'</style>');
             
-            var pstyle = $('style#Tcll5850-PS-style-profile');
+            var pstyle = $('style#Tcll5850-PS-style-profile')[0];
             
             //console.log(pstyle);
             if (name === 'user') {
