@@ -16,14 +16,14 @@
       <file leaf-file-name="stable.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../Plugins/BBCPP1/stable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="192" column="14" lean-forward="true" selection-start-line="192" selection-start-column="14" selection-end-line="192" selection-end-column="14" />
+            <state relative-caret-position="588">
+              <caret line="185" column="76" lean-forward="true" selection-start-line="185" selection-start-column="76" selection-end-line="185" selection-end-column="76" />
               <folding>
-                <marker date="1522978138372" expanded="true" signature="3170:3196" ph="..." />
-                <marker date="1522978138372" expanded="true" signature="3297:3597" ph="..." />
-                <marker date="1522978138372" expanded="true" signature="3746:3764" ph="..." />
-                <marker date="1522978138372" expanded="true" signature="7681:7847" ph="..." />
-                <marker date="1522978138372" expanded="true" signature="8208:8420" ph="..." />
+                <marker date="1522978301870" expanded="true" signature="3170:3196" ph="..." />
+                <marker date="1522978301870" expanded="true" signature="3297:3597" ph="..." />
+                <marker date="1522978301870" expanded="true" signature="3746:3764" ph="..." />
+                <marker date="1522978301870" expanded="true" signature="7681:7847" ph="..." />
+                <marker date="1522978301870" expanded="true" signature="8208:8420" ph="..." />
               </folding>
             </state>
           </provider>
@@ -339,12 +339,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522939377452</updated>
-      <workItem from="1522939384426" duration="10759000" />
+      <workItem from="1522939384426" duration="10805000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10759000" />
+    <option name="totallyTimeSpent" value="10805000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1599" y="25" width="1602" height="1151" extended-state="6" />
@@ -406,14 +406,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../Plugins/BBCPP1/stable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="192" column="14" lean-forward="true" selection-start-line="192" selection-start-column="14" selection-end-line="192" selection-end-column="14" />
+        <state relative-caret-position="588">
+          <caret line="185" column="76" lean-forward="true" selection-start-line="185" selection-start-column="76" selection-end-line="185" selection-end-column="76" />
           <folding>
-            <marker date="1522978138372" expanded="true" signature="3170:3196" ph="..." />
-            <marker date="1522978138372" expanded="true" signature="3297:3597" ph="..." />
-            <marker date="1522978138372" expanded="true" signature="3746:3764" ph="..." />
-            <marker date="1522978138372" expanded="true" signature="7681:7847" ph="..." />
-            <marker date="1522978138372" expanded="true" signature="8208:8420" ph="..." />
+            <marker date="1522978301870" expanded="true" signature="3170:3196" ph="..." />
+            <marker date="1522978301870" expanded="true" signature="3297:3597" ph="..." />
+            <marker date="1522978301870" expanded="true" signature="3746:3764" ph="..." />
+            <marker date="1522978301870" expanded="true" signature="7681:7847" ph="..." />
+            <marker date="1522978301870" expanded="true" signature="8208:8420" ph="..." />
           </folding>
         </state>
       </provider>
