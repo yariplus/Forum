@@ -163,13 +163,7 @@ $(document).ready(function() {
             
             $('head').append('<style id="Tcll5850-PS-style-profile">'+ccss+'</style>');
             
-            var pstyle = null;
-            for(i = 0; i < document.styleSheets.length; i++){
-                if(document.styleSheets[i].ownerNode.id === 'Tcll5850-PS-style-profile') {
-                    pstyle = document.styleSheets[i];
-                    break;
-                }
-            }
+            var pstyle = $('style#Tcll5850-PS-style-profile')
             
             //console.log(pstyle);
             if (name === 'user') {
@@ -185,7 +179,7 @@ $(document).ready(function() {
                     '<div id="Tcll5850-PS-classes" class="" style="overflow-y:auto; width: 400px; height:91px; margin: 0px; margin-top: 5px;'+
                     ' padding: 2px; padding-left:5px; border-width: 1px; border-style: solid; border-color: #606060; border-radius: 5px;"></div>');
                 CCSStext.keyup(function() {
-                    $('style#Tcll5850-PS-style-profile').text($('div.custom-field-customcss').children('textarea').text())
+                    pstyle.text( $('div.custom-field-customcss').children('textarea').text() )
                 });
             };
             
