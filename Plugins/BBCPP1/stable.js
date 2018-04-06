@@ -191,7 +191,9 @@ $(document).ready(function() {
                         };
                     };
                 });
-                CCSStext.onresize()
+                CCSStext.onresize(function() {
+                    
+                });
             };
 
             var pstyle = ss[0].sheet;
