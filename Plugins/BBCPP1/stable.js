@@ -182,6 +182,13 @@ $(document).ready(function() {
                 CCSStext.keyup(function() {
                     pstyle.text( $('div.custom-field-customcss').children('textarea').text() )
                     preview.html('')
+                    for(j = 0; j< pstyle.cssRules.length; j++){
+                        var sl = pstyle.cssRules[j].selectorText.split(',');
+                        for(k = 0; k< sl.length; k++){
+                            var s = sl[k].replace('.','');
+                            preview.append('<span class="'+s+'">'+s+'</span><br/>');
+                        };
+                    };
                 });
             };
 
