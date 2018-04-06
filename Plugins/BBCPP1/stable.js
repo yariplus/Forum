@@ -179,11 +179,13 @@ $(document).ready(function() {
                 CCSStext.after(
                     '<div id="Tcll5850-PS-classes" class="" style="overflow-y:auto; width: 400px; height:91px; margin: 0px; margin-top: 5px;'+
                     ' padding: 2px; padding-left:5px; border-width: 1px; border-style: solid; border-color: #606060; border-radius: 5px;"></div>');
+                var preview = $('div#Tcll5850-PS-classes');
                 CCSStext.keyup(function() {
                     pstyle.text( $('div.custom-field-customcss').children('textarea').text() )
+                    preview.html('')
                 });
             };
-            
+
             for(j = 0; j< rules.length; j++){
                 var sl = rules[j].selectorText.split(',');
                 for(k = 0; k< sl.length; k++){
