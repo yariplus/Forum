@@ -181,8 +181,8 @@ $(document).ready(function() {
                     ' padding: 2px; padding-left:5px; border-width: 1px; border-style: solid; border-color: #606060; border-radius: 5px;"></div>');
                 var preview = $('div#Tcll5850-PS-classes');
                 preview.height(CCSStext.height());
-                //$(window).one('resize', function() { CCSStext.height(preview.height()) }.bind(preview));
-                //$(window).one('resize', function() { preview.height(CCSStext.height()) }.bind(CCSStext));
+                $(window).one('resize', function() { CCSStext.height(preview.height()) }.bind(preview));
+                $(window).one('resize', function() { preview.height(CCSStext.height()) }.bind(CCSStext));
                 CCSStext.keyup(function() {
                     ss.text( $('div.custom-field-customcss').children('textarea').val() );
                     var pstyle = ss[0].sheet;
