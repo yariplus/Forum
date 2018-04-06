@@ -181,7 +181,7 @@ $(document).ready(function() {
                 var preview = $('div#Tcll5850-PS-classes');
                 preview.height(CCSStext.height());
                 preview.resize(function() { CCSStext.height(preview.height()) });
-                CCSStext.onresize(function() { preview.height(CCSStext.height()) });
+                CCSStext.resize(function() { preview.height(CCSStext.height()) });
                 CCSStext.keyup(function() {
                     ss.text( $('div.custom-field-customcss').children('textarea').val() );
                     var pstyle = ss[0].sheet;
