@@ -182,7 +182,7 @@ $(document).ready(function() {
                 preview.width(CCSStext.width());
                 preview.height(CCSStext.height());
                 CCSStext.css('border-bottom', '3px solid gray');
-                CCSStext.css('float', 'left');
+                //CCSStext.css('float', 'left');
                 CCSStext.css('margin-right', '10px');
                 CCSStext.keyup(function() {
                     ss.text( $('div.custom-field-customcss').children('textarea').val() );
