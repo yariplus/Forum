@@ -180,7 +180,7 @@ $(document).ready(function() {
                     ' padding: 2px; padding-left:5px; border-width: 1px; border-style: solid; border-color: #606060; border-radius: 5px;"></div>');
                 var preview = $('div#Tcll5850-PS-classes');
                 preview.height(CCSStext.height());
-                CCSStext.css('resize', 'vertical');
+                CCSStext.css('border', 'thin 3px bottom');
                 CCSStext.css('float', 'left');
                 CCSStext.css('margin-right', '10px');
                 CCSStext.keyup(function() {
