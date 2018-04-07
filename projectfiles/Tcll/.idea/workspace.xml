@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a1015c6-e514-4549-9652-5d6f58fb8385" name="Default" comment="" />
+    <list default="true" id="3a1015c6-e514-4549-9652-5d6f58fb8385" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Plugins/BBCPP1/stable.js" afterPath="$PROJECT_DIR$/../../Plugins/BBCPP1/stable.js" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +19,11 @@
             <state relative-caret-position="651">
               <caret line="183" column="64" lean-forward="true" selection-start-line="183" selection-start-column="64" selection-end-line="183" selection-end-column="64" />
               <folding>
-                <marker date="1523111613533" expanded="true" signature="3170:3196" ph="..." />
-                <marker date="1523111613533" expanded="true" signature="3297:3597" ph="..." />
-                <marker date="1523111613533" expanded="true" signature="3746:3764" ph="..." />
-                <marker date="1523111613533" expanded="true" signature="7677:7843" ph="..." />
-                <marker date="1523111613533" expanded="true" signature="8197:8382" ph="..." />
+                <marker date="1523112147388" expanded="true" signature="3170:3196" ph="..." />
+                <marker date="1523112147388" expanded="true" signature="3297:3597" ph="..." />
+                <marker date="1523112147388" expanded="true" signature="3746:3764" ph="..." />
+                <marker date="1523112147388" expanded="true" signature="7677:7843" ph="..." />
+                <marker date="1523112147388" expanded="true" signature="8197:8382" ph="..." />
               </folding>
             </state>
           </provider>
@@ -337,12 +339,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522939377452</updated>
-      <workItem from="1522939384426" duration="23906000" />
+      <workItem from="1522939384426" duration="24446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23906000" />
+    <option name="totallyTimeSpent" value="24446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1599" y="25" width="1602" height="1151" extended-state="6" />
@@ -407,11 +409,11 @@
         <state relative-caret-position="651">
           <caret line="183" column="64" lean-forward="true" selection-start-line="183" selection-start-column="64" selection-end-line="183" selection-end-column="64" />
           <folding>
-            <marker date="1523111613533" expanded="true" signature="3170:3196" ph="..." />
-            <marker date="1523111613533" expanded="true" signature="3297:3597" ph="..." />
-            <marker date="1523111613533" expanded="true" signature="3746:3764" ph="..." />
-            <marker date="1523111613533" expanded="true" signature="7677:7843" ph="..." />
-            <marker date="1523111613533" expanded="true" signature="8197:8382" ph="..." />
+            <marker date="1523112147388" expanded="true" signature="3170:3196" ph="..." />
+            <marker date="1523112147388" expanded="true" signature="3297:3597" ph="..." />
+            <marker date="1523112147388" expanded="true" signature="3746:3764" ph="..." />
+            <marker date="1523112147388" expanded="true" signature="7677:7843" ph="..." />
+            <marker date="1523112147388" expanded="true" signature="8197:8382" ph="..." />
           </folding>
         </state>
       </provider>
