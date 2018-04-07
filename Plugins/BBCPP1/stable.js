@@ -175,11 +175,6 @@ $(document).ready(function() {
                 var container = $('div.custom-field-customcss');
                 //container.css('display','flex');
                 var CCSStext = container.children('textarea');
-                CCSStext.after(
-                    '<div id="Tcll5850-PS-classes" class="" style="overflow-y:auto; resize: vertical; width: 455px; margin: 0px; margin-top: 5px;'+
-                    ' padding: 2px; padding-left:5px; border-width: 1px; border-style: solid; border-color: #606060; border-radius: 5px;"></div>');
-                var preview = $('div#Tcll5850-PS-classes');
-                preview.height(CCSStext.height());
                 CCSStext.resizable({
                     resize: function() { preview.height( CCSStext.height() ) }
                 });
@@ -198,6 +193,11 @@ $(document).ready(function() {
                         };
                     };
                 });
+                CCSStext.after(
+                    '<div id="Tcll5850-PS-classes" class="" style="overflow-y:auto; resize: vertical; width: 455px; margin: 0px; margin-top: 5px;'+
+                    ' padding: 2px; padding-left:5px; border-width: 1px; border-style: solid; border-color: #606060; border-radius: 5px;"></div>');
+                var preview = $('div#Tcll5850-PS-classes');
+                preview.height(CCSStext.height());
             };
 
             var pstyle = ss[0].sheet;
