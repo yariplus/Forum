@@ -177,7 +177,7 @@ $(document).ready(function() {
                 var CCSStext = container.children('textarea');
                 CCSStext.after(
                     '<div id="Tcll5850-PS-classes" class="" style="overflow-y:auto; margin: 0px; margin-top: 5px; padding: 2px; padding-left:5px;' +
-                    ' border-bottom; 3px solid gray; border-width: 1px; border-style: solid; border-color: #606060; border-radius: 5px;"></div>');
+                    ' border-bottom; 5px solid gray; border-width: 1px; border-style: solid; border-color: #606060; border-radius: 5px;"></div>');
                 var preview = $('div#Tcll5850-PS-classes');
                 preview.width(CCSStext.width());
                 preview.height(CCSStext.height());
@@ -186,7 +186,7 @@ $(document).ready(function() {
                     handles: 's',
                     resize: function() { CCSStext.height( preview.height() ) }
                 });
-                CCSStext.css('border-bottom', '3px solid gray');
+                CCSStext.css('border-bottom', '5px solid gray');
                 CCSStext.css('display','table-cell');
                 //CCSStext.css('float', 'left');
                 //CCSStext.css('margin-right', '10px');
