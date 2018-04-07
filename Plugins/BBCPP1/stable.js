@@ -173,7 +173,7 @@ $(document).ready(function() {
             };
             if (name === 'edit_user_personal') {
                 var container = $('div.custom-field-customcss');
-                //container.css('display','flex');
+                container.css('display','inline-block');
                 var CCSStext = container.children('textarea');
                 CCSStext.after(
                     '<div id="Tcll5850-PS-classes" class="" style="overflow-y:auto; margin: 0px; margin-top: 5px;'+
