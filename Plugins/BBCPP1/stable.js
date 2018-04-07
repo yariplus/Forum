@@ -181,12 +181,14 @@ $(document).ready(function() {
                 var preview = $('div#Tcll5850-PS-classes');
                 preview.width(CCSStext.width());
                 preview.height(CCSStext.height());
+                preview.css('display','table-cell');
                 preview.resizable({
                     handles: 's',
                     resize: function() { CCSStext.height( preview.height() ) }
                 });
                 CCSStext.css('border-bottom', '3px solid gray');
-                CCSStext.css('float', 'left');
+                CCSStext.css('display','table-cell');
+                //CCSStext.css('float', 'left');
                 //CCSStext.css('margin-right', '10px');
                 CCSStext.keyup(function() {
                     ss.text( $('div.custom-field-customcss').children('textarea').val() );
