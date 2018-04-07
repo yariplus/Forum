@@ -16,8 +16,8 @@
       <file leaf-file-name="stable.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../Plugins/BBCPP1/stable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="681">
-              <caret line="185" column="44" lean-forward="false" selection-start-line="185" selection-start-column="44" selection-end-line="185" selection-end-column="44" />
+            <state relative-caret-position="561">
+              <caret line="177" column="31" lean-forward="true" selection-start-line="177" selection-start-column="31" selection-end-line="177" selection-end-column="31" />
               <folding>
                 <marker date="1523113045761" expanded="true" signature="3170:3196" ph="..." />
                 <marker date="1523113045761" expanded="true" signature="3297:3597" ph="..." />
@@ -339,12 +339,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522939377452</updated>
-      <workItem from="1522939384426" duration="25231000" />
+      <workItem from="1522939384426" duration="25264000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25231000" />
+    <option name="totallyTimeSpent" value="25264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1599" y="25" width="1602" height="1151" extended-state="6" />
@@ -406,8 +406,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../Plugins/BBCPP1/stable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="185" column="44" lean-forward="false" selection-start-line="185" selection-start-column="44" selection-end-line="185" selection-end-column="44" />
+        <state relative-caret-position="561">
+          <caret line="177" column="31" lean-forward="true" selection-start-line="177" selection-start-column="31" selection-end-line="177" selection-end-column="31" />
           <folding>
             <marker date="1523113045761" expanded="true" signature="3170:3196" ph="..." />
             <marker date="1523113045761" expanded="true" signature="3297:3597" ph="..." />
