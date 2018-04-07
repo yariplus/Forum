@@ -181,7 +181,7 @@ $(document).ready(function() {
                 var preview = $('div#Tcll5850-PS-classes');;
                 preview.width(CCSStext.width());
                 preview.height(CCSStext.height());
-                CCSStext.css('border-bottom', '3px');
+                CCSStext.css('border-bottom', 'thin 3px solid');
                 CCSStext.css('float', 'left');
                 CCSStext.css('margin-right', '10px');
                 CCSStext.keyup(function() {
