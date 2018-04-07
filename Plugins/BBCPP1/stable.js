@@ -180,10 +180,6 @@ $(document).ready(function() {
                     ' padding: 2px; padding-left:5px; border-width: 1px; border-style: solid; border-color: #606060; border-radius: 5px;"></div>');
                 var preview = $('div#Tcll5850-PS-classes');
                 preview.height(CCSStext.height());
-                CCSStext.resizable({
-                    handles: 's',
-                    resize: function() { preview.height( CCSStext.height() ) }
-                });
                 CCSStext.keyup(function() {
                     ss.text( $('div.custom-field-customcss').children('textarea').val() );
                     var pstyle = ss[0].sheet;
@@ -196,9 +192,13 @@ $(document).ready(function() {
                         };
                     };
                 });
+                CCSStext.resizable({
+                    handles: 's',
+                    resize: function() { preview.height( CCSStext.height() ) }
+                });
+                CCSStext.css('resize', 'vertical');
                 CCSStext.css('float', 'left');
                 CCSStext.css('margin-right', '10px');
-                CCSStext.css('resize', 'vertical');
             };
 
             var pstyle = ss[0].sheet;
