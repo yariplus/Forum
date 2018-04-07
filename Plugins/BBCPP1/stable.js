@@ -173,8 +173,8 @@ $(document).ready(function() {
             };
             if (name === 'edit_user_personal') {
                 var container = $('div.custom-field-customcss');
-                container.css('display','table-cell');
-                container.children('layout').css('display','table-row');
+                container.css('width','100%');
+                //container.children('layout').css('display','table-row');
                 var CCSStext = container.children('textarea');
                 CCSStext.after(
                     '<div id="Tcll5850-PS-classes" class="" style="overflow-y:auto; margin: 0px; margin-top: 5px; padding: 2px; padding-left: 5px;' +
@@ -187,8 +187,8 @@ $(document).ready(function() {
                     resize: function() { CCSStext.height( preview.height() ) }
                 });
                 CCSStext.css('border-bottom', '3px solid gray');
-                //CCSStext.css('float', 'left');
-                //CCSStext.css('margin-right', '10px');
+                CCSStext.css('float', 'left');
+                CCSStext.css('margin-right', '10px');
                 CCSStext.keyup(function() {
                     ss.text( $('div.custom-field-customcss').children('textarea').val() );
                     var pstyle = ss[0].sheet;
