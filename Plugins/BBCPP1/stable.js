@@ -181,6 +181,7 @@ $(document).ready(function() {
                 var preview = $('div#Tcll5850-PS-classes');
                 preview.height(CCSStext.height());
                 CCSStext.resizable({
+                    handles: 's',
                     resize: function() { preview.height( CCSStext.height() ) }
                 });
                 CCSStext.keyup(function() {
@@ -197,7 +198,6 @@ $(document).ready(function() {
                 });
                 CCSStext.css('float', 'left');
                 CCSStext.css('margin-right', '10px');
-                CCSStext.css('resize', 'vertical');
             };
 
             var pstyle = ss[0].sheet;
