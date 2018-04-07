@@ -175,9 +175,6 @@ $(document).ready(function() {
                 var container = $('div.custom-field-customcss');
                 //container.css('display','flex');
                 var CCSStext = container.children('textarea');
-                CCSStext.css('float', 'left');
-                CCSStext.css('margin-right', '10px');
-                CCSStext.css('resize', 'vertical');
                 CCSStext.after(
                     '<div id="Tcll5850-PS-classes" class="" style="overflow-y:auto; resize: vertical; width: 455px; margin: 0px; margin-top: 5px;'+
                     ' padding: 2px; padding-left:5px; border-width: 1px; border-style: solid; border-color: #606060; border-radius: 5px;"></div>');
@@ -186,6 +183,9 @@ $(document).ready(function() {
                 CCSStext.resizable({
                     resize: function() { preview.height( CCSStext.height() ) }
                 });
+                CCSStext.css('float', 'left');
+                CCSStext.css('margin-right', '10px');
+                CCSStext.css('resize', 'vertical');
                 CCSStext.keyup(function() {
                     ss.text( $('div.custom-field-customcss').children('textarea').val() );
                     var pstyle = ss[0].sheet;
