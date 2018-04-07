@@ -198,6 +198,7 @@ $(document).ready(function() {
                 });
                 CCSStext.css('float', 'left');
                 CCSStext.css('margin-right', '10px');
+                CCSStext.css('resize', 'vertical');
             };
 
             var pstyle = ss[0].sheet;
