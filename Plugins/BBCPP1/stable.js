@@ -183,9 +183,6 @@ $(document).ready(function() {
                 CCSStext.resizable({
                     resize: function() { preview.height( CCSStext.height() ) }
                 });
-                CCSStext.css('float', 'left');
-                CCSStext.css('margin-right', '10px');
-                CCSStext.css('resize', 'vertical');
                 CCSStext.keyup(function() {
                     ss.text( $('div.custom-field-customcss').children('textarea').val() );
                     var pstyle = ss[0].sheet;
@@ -198,6 +195,9 @@ $(document).ready(function() {
                         };
                     };
                 });
+                CCSStext.css('float', 'left');
+                CCSStext.css('margin-right', '10px');
+                CCSStext.css('resize', 'vertical');
             };
 
             var pstyle = ss[0].sheet;
